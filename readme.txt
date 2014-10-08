@@ -36,7 +36,9 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
-iorad editor change log
+= 0.1 =
+
+* Initial release of proof of concept
 
 == Upgrade Notice ==
 
