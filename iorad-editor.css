@@ -1,0 +1,14 @@
+.iorad-loading {
+    overflow: hidden;
+}
+.iorad-loading .iorad-btn .spinner {
+    display: block;
+}
+.iorad-open #iorad-editor-wrapper {
+    position: fixed;
+    top: 32px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+}
