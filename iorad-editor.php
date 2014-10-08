@@ -22,15 +22,15 @@ function load_js_and_css() {
         'post.php',
         'post-new.php'
     ) ) ) {
-        wp_register_style( 'iorad-editor.css', IORAD_PLUGIN_URL . 'iorad-editor.css', array(), IORAD_VERSION );
+        wp_register_style( 'iorad-editor.css', IORAD_PLUGIN_URL . 'editor.css', array(), IORAD_VERSION );
         wp_enqueue_style( 'iorad-editor.css');
         $iorad_js = '//www.iorad.com/server/assets/js/iorad.js';//IORAD_PLUGIN_URL . 'iorad.js';
         wp_register_script( 'iorad.js', $iorad_js,
                             array('jquery', 'backbone', 'underscore'), IORAD_VERSION );
         wp_enqueue_script( 'iorad.js' );
 
-        wp_register_script( 'iorad-editor.js', IORAD_PLUGIN_URL . 'iorad-editor.js',
-                            array('iorad-editor.js'), IORAD_VERSION );
+        wp_register_script( 'iorad-editor.js', IORAD_PLUGIN_URL . 'editor.js',
+                            array('iorad.js'), IORAD_VERSION );
         wp_enqueue_script( 'iorad-editor.js' );
 
         /*wp_localize_script( 'iorad_handle.js', 'iorad_handle', array(
