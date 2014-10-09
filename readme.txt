@@ -4,7 +4,7 @@ Donate link: http://www.iorad.com
 Tags: post, iorad, editor
 Requires at least: 3.2
 Tested up to: 4.0
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,10 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 2. This is the second screen shot
 
 == Changelog ==
+
+= 0.2 =
+
+* Fix wrong version number from 0.1
 
 = 0.1 =
 
