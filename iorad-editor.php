@@ -1,17 +1,17 @@
 <?php
 /**
  * @package IORAD
- * @version 0.1-@
+ * @version 0.2
  */
 /*
 Plugin Name: iorad editor
 Plugin URI: http://www.iorad.com/
 Description: Add a button that opens the iorad editor within wordpress editor
 Author: iorad
-Version: 0.1-@
+Version: 0.2
 Author URI: http://www.iorad.com/
 */
-define('IORAD_VERSION', '0.1-@');
+define('IORAD_VERSION', '0.2');
 define('IORAD_PLUGIN_URL', plugin_dir_url( __FILE__ ));
 
 add_action( 'admin_enqueue_scripts', 'load_js_and_css' );
