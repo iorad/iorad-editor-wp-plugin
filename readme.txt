@@ -4,7 +4,7 @@ Donate link: http://www.iorad.com
 Tags: post, iorad, editor
 Requires at least: 3.2
 Tested up to: 4.0
-Stable tag: 0.2
+Stable tag: 0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,10 +14,39 @@ Add a button that opens the iorad editor within wordpress editor.
 
 Add a button that opens the iorad editor within wordpress editor.
 
+iorad editor is an important part of a web application that allows users to capture and edit slides
+to create "stunning tutorials in a snap".
+
+And by using this plugin, users could create, edit and embed tutorials from within wordpress editor
+directly without leaving wordpress editor.
+
+This plugin does not record or save any personal data from wordpress site or require any permissions
+to do so. This plugin just makes it convenient for users to create, editor and embed iorad tutorials
+from within wordpress editor, nothing more.
+
+To use this plugin, users are required to register accounts at http://www.iorad.com and install
+any required softwares.
+
+For more information, please take look at this docs page to see how it works:
+
+http://docs.iorad.com/how-to-use-provided-iorad-api/
+
+
+
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+= Official Wordpress Repository =
+
+This is recommended approach for normal users to install iorad-editor plugin. Just search
+"iorad-editor" plugin and install, activate it.
+
+= Git Repository =
+
+This is recommended approach for beta users or developers to install different versions of
+iorad-editor plugin: https://github.com/iorad/iorad-editor-wp-plugin. Users need to download,
+upload the downloaded plugin to wordpress site to install, activate it.
+
 
 == Frequently Asked Questions ==
 
@@ -35,6 +64,11 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 2. This is the second screen shot
 
 == Changelog ==
+
+== 0.3 =
+
+* fix z-index of editor-wrapper
+
 
 = 0.2 =
 
