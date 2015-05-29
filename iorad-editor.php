@@ -4,9 +4,9 @@
  * @version 0.4-@
  */
 /*
-Plugin Name: iorad editor
+Plugin Name: iorad instant tutorial builder
 Plugin URI: http://www.iorad.com/
-Description: Add a button that opens the iorad editor within wordpress editor
+Description: Build and embed a tutorial right from wordpress.  The plugin installs an "Add Tutorial" button right above the rich text editor.
 Author: iorad
 Version: 0.4-@
 Author URI: http://www.iorad.com/
