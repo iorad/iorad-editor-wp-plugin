@@ -2,7 +2,10 @@
     iorad = win.iorad || {};
     tinyMCE = win.tinyMCE || {};
 
-    iorad.init({env: 'live'}, function() {
+    iorad.init({
+        pluginType: 'wordpress',
+        env: 'live'
+    }, function() {
         //iorad is ready now
         var t = 0;
         $('#new-tutorial-btn').on('click', function() {
