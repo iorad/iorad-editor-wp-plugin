@@ -2,7 +2,10 @@
     iorad = win.iorad || {};
     tinyMCE = win.tinyMCE || {};
 
-    iorad.init({env: 'live'}, function() {
+    iorad.init({
+        pluginType: 'wordpress',
+        env: 'live'
+    }, function() {
         //iorad is ready now
         var t = 0;
         $('#new-tutorial-btn').on('click', function() {
@@ -22,12 +25,19 @@
             $('body').removeClass('iorad-open iorad-loading');
             clearTimeout(t);
             var iframe = iorad.getEmbeddedPlayerUrl(tutorialParams.uid,
-                tutorialParams.tutorialId, tutorialParams.tutorialTitle)
+                tutorialParams.tutorialId, tutorialParams.tutorialTitle);
+            var steps = tutorialParams.steps,
+                stepsHtml = '<div style="display: none"><ol>';
+            $.each(steps, function(i, step) {
+                stepsHtml += '<li>' + step.description + '</li>';
+            });
+            stepsHtml += '</ol></div>'
+            var content = iframe + stepsHtml;
             if (tinyMCE.activeEditor && !tinyMCE.activeEditor.isHidden()) {
                 tinyMCE.execCommand('mceFocus',false,'content');
-                tinyMCE.activeEditor.selection.setContent(iframe);
+                tinyMCE.activeEditor.selection.setContent(content);
             } else {
-                insertAtCursor($('textarea#content').get(0), iframe);
+                insertAtCursor($('textarea#content').get(0), content);
             }
         });
 
