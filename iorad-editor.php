@@ -1,17 +1,17 @@
 <?php
 /**
  * @package IORAD
- * @version 0.4
+ * @version 0.5-@
  */
 /*
 Plugin Name: iorad instant tutorial builder
 Plugin URI: http://www.iorad.com/
 Description: Build step-by-step application tutorials right from wordpress.
 Author: iorad
-Version: 0.4
+Version: 0.5-@
 Author URI: http://www.iorad.com/
 */
-define('IORAD_VERSION', '0.4');
+define('IORAD_VERSION', '0.5-@');
 define('IORAD_PLUGIN_URL', plugin_dir_url( __FILE__ ));
 
 add_action( 'admin_enqueue_scripts', 'load_js_and_css' );
