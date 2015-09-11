@@ -4,23 +4,23 @@ Donate link: http://www.iorad.com
 Tags: post, iorad, editor, tutorial builder
 Requires at least: 3.2
 Tested up to: 4.0
-Stable tag: 0.3
+Stable tag: 0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Build step-by-step application tutorials right from wordpress. 
+Build step-by-step application tutorials right from wordpress.
 
 == Description ==
 
 This plugin will install an "Add Tutorial" button right above the rich text editor in wp-admin.
 
-The iorad application allows users to capture any application and break it apart into step-by-step instructions.  
+The iorad application allows users to capture any application and break it apart into step-by-step instructions.
 
 The plugin will automatically launch the iorad application and create a new post with the tutorial embedded.
 
 This plugin does not record or save any personal data from your wordpress site.
 
-Once this plugin is installed, you will be prompted to signup for a free iorad account or login with your existing account and install the iorad capture application. 
+Once this plugin is installed, you will be prompted to signup for a free iorad account or login with your existing account and install the iorad capture application.
 
 
 
@@ -105,7 +105,12 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
-== 0.3 =
+= 0.4 =
+
+* update Wordpress Plugin to include tutorial contents
+* update pluginType
+
+= 0.3 =
 
 * fix z-index of editor-wrapper
 
